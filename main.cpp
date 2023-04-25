@@ -1,6 +1,8 @@
 #include "mbed.h"
 
 //Embedded Systems Lab 1
+//To improve code and prevent multiple reprints I added a float delay
+//The float delay is a varible and is called for each joystick function movemnet
 
 Serial pc(USBTX, USBRX);
 InterruptIn Down(p12);//Move Joystick Down
